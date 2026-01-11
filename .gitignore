@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+assets/generated/
+assets/images/originals/

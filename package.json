@@ -1,0 +1,13 @@
+{
+  "name": "kurt-photo-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:images": "node ./tools/build-images.mjs",
+    "dev": "npx serve .",
+    "clean:generated": "node -e \"import('fs').then(fs=>fs.rmSync('./assets/generated',{recursive:true,force:true}));\""
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
